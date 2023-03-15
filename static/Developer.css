@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+/* background-image: url('https://www.womanthology.co.uk/wp-content/uploads/2017/06/facescan.gif'); */
+background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+animation: gradient 15s ease infinite;
+
+}
+.navbar{
+    color: white;
+    background-color: rgba(0,0,0,0.5) !important;
+}
+.nav-head{
+    font-style: italic;
+    text-shadow: 1px 2px 2px rgb(239, 102, 125);
+}
+.sign-out-icon{
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+.developer_icon{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.dev_icon{
+   
+    color: white;
+}
+.dev{
+   font-size: 10px;
+   
+}
